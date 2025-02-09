@@ -1,21 +1,32 @@
 <!doctype html>
-<title>Site Maintenance</title>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  .container { display: block; text-align: left; width: 650px; margin: 0 auto; }  
-  .font{font-family: 'Great Vibes', cursive;}
-  a { color: #0366d6; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
-<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-<div class='container'>
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div class='font'>
-        <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment.
-        If you need to you can always <a href="mailto:team@email.com">contact us</a>
-        , otherwise repairs are in progress and we&rsquo;ll be back online shortly!</p>
-        <p>&mdash; The Team</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Maintenance</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        body { font-family: Helvetica, sans-serif; color: #333; text-align: center; display: flex; align-items: center; justify-content: center; height: 100vh; padding: 20px; background: #f8f9fa;}
+        .container { max-width: 90%; width: 600px; background: white; padding: 30px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); }  
+        h1 { font-size: 28px; margin-bottom: 10px; }
+        .font { font-family: 'Great Vibes', cursive; font-size: 18px; }
+        a { color: #0366d6; text-decoration: none; font-weight: bold; }
+        a:hover { color: #ff4500; }
+        @media (max-width: 768px) {.container { width: 100%; padding: 20px; } h1 { font-size: 24px; } .font { font-size: 16px; }}
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <h1>We&rsquo;ll be back soon!</h1>
+        <div class='font'>
+            <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment.
+            If you need to you can always <a href="mailto:team@email.com">contact us</a>
+            , otherwise repairs are in progress and we&rsquo;ll be back online shortly!</p>
+            <p>&mdash; The Team</p>
+        </div>
     </div>
-</div>
+</body>
+</html>
